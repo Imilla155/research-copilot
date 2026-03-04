@@ -51,11 +51,14 @@ streamlit run app.py
 ## 6. Limitaciones
 
 Se debe mejorar la sintesis de varios autores a la vez
+
 Las citas a veces fallan
 
 ## 7. Datos de Autor
 
 Autores: Imilla Córdova Chambi
+
 Curso: Prompt Engineering - Qlab
+
 Fecha: 3/03/2026
 
