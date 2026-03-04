@@ -1,4 +1,4 @@
-Research Copilot: Análisis de Dinámicas Agrarias y Desarrollo Rural
+#Research Copilot: Análisis de Dinámicas Agrarias y Desarrollo Rural
 
 Este proyecto es un asistente de investigación inteligente diseñado para procesar, indexar y consultar una biblioteca especializada de 20 artículos académicos sobre desarrollo rural, sociología agraria y economía agrícola. Utilizando una arquitectura RAG (Retrieval-Augmented Generation), el sistema permite realizar consultas semánticas precisas sobre textos complejos, garantizando la integridad de los metadatos (autores, años y páginas) mediante una sincronización estricta entre una base de datos de vectores y un catálogo maestro en formato JSON.
 
