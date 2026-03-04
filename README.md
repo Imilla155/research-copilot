@@ -27,3 +27,24 @@ El sistema es capaz de:
 - 💬 **Mantener el contexto de la conversación** a lo largo de múltiples intercambios, permitiendo consultas encadenadas.
 
 - 🌐 **Presentar la información a través de una interfaz web intuitiva y rica en funciones**, diseñada para facilitar la exploración del corpus académico.
+
+## 3. Arquitectura
+<img width="487" height="578" alt="image" src="https://github.com/user-attachments/assets/e1770f8f-5ef9-4935-adaa-5029dcedaf6a" />
+
+## 4. Instalacion 
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Configurar API Key (crear archivo .env)
+echo "OPENAI_API_KEY=tu_api_key_aqui" > .env
+
+# Ejecutar la aplicación
+streamlit run app.py
+
+## Detalles tecnicos 
+
+<img width="747" height="208" alt="image" src="https://github.com/user-attachments/assets/89cdbd5d-2606-4682-80e0-69f0db78bb15" />
+
+
+
