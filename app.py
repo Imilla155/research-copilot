@@ -85,8 +85,10 @@ if app_mode == "Chat Interface":
         with st.chat_message(msg["role"]):
             st.markdown(msg["content"])
             if msg.get("sources"):
-                 with st.expander("View Context Used"):
-                     for src in msg["sources"]:
+                 with st.expander("Ver documentos consultados"):
+                     # To avoid repeating the same document, we deduplicate by name
+                     unique_sources = list(dict.fromkeys(msg["sources"]))
+                     for src in unique_sources:
                          st.markdown(f"- {src}")
 
     col_btn, _ = st.columns([1, 5])
@@ -143,8 +145,11 @@ if app_mode == "Chat Interface":
                 "Use the provided context to answer the user's question accurately. "
                 "If the answer is not in the context, say you don't know based on the provided papers.\n\n"
                 "Critically Important Protocol:\n"
-                "Every time you use information from the context, you MUST include a formal APA citation directly in your response text, "
-                "and mention the exact page number (e.g., (Avelino, 2024, p. 1)). You must highlight the relevant citation source at the end.\n\n"
+                "1. Every time you use information from the context, you MUST include a formal APA citation directly in your response text.\n"
+                "2. Use strictly the format (Author, Year, p. X) within the text. If the page belongs to 'N/A' or is not available, use only (Author, Year).\n"
+                "3. At the very end of your response, add a 'Referencias' section. In this section, you must list the documents used strictly following APA format:\n"
+                "   Lastname, Initial. (Year). Title of the document in italics. Source or journal name.\n"
+                "4. CRITICAL: Provide ONLY ONE entry per document in the 'Referencias' section. Do NOT duplicate references if a document is cited multiple times.\n\n"
                 "Context:\n" + "\n\n---\n\n".join(contexts)
             )
 
@@ -164,15 +169,14 @@ if app_mode == "Chat Interface":
             formatted_sources = []
             for c in contexts:
                 doc_match = re.search(r"Document:\s*(.+)", c)
-                page_match = re.search(r"Page:\s*(\w+)", c)
                 doc_name = doc_match.group(1).replace('.pdf', '') if doc_match else 'Unknown'
-                page_num = page_match.group(1) if page_match else 'N/A'
-                formatted_sources.append(f"{doc_name} (Page {page_num})")
+                formatted_sources.append(doc_name)
             
             st.markdown(response)
             if contexts:
-                 with st.expander("View Context Used"):
-                     for src in formatted_sources:
+                 with st.expander("Ver documentos consultados"):
+                     unique_sources = list(dict.fromkeys(formatted_sources))
+                     for src in unique_sources:
                          st.markdown(f"- {src}")
             
             st.session_state.messages.append({"role": "assistant", "content": response, "sources": formatted_sources})
