@@ -1,6 +1,6 @@
 ## 1.Research Copilot: Análisis de Dinámicas Agrarias y Desarrollo Rural
 
-Este proyecto es un asistente de investigación inteligente diseñado para procesar, indexar y consultar una biblioteca especializada de 20 artículos académicos sobre desarrollo rural, sociología agraria y economía agrícola. Utilizando una arquitectura RAG (Retrieval-Augmented Generation), el sistema permite realizar consultas semánticas precisas sobre textos complejos, garantizando la integridad de los metadatos (autores, años y páginas) mediante una sincronización estricta entre una base de datos de vectores y un catálogo maestro en formato JSON.
+Este proyecto es un asistente de investigación inteligente diseñado para procesar, indexar y consultar una biblioteca especializada de 20 artículos académicos sobre desarrollo rural, productores agropecuarios y formas de vida en el campo. Utilizando una arquitectura RAG (Retrieval-Augmented Generation), el sistema permite realizar consultas semánticas precisas sobre textos complejos, garantizando la integridad de los metadatos (autores, años y páginas) mediante una sincronización estricta entre una base de datos de vectores y un catálogo maestro en formato JSON.
 
 **Link Web:** https://research-copilot-7qhf9a2prvftcnfpipyrrh.streamlit.app/
 
@@ -10,9 +10,9 @@ Los artículos integrados en este repositorio se centran en el estudio de las tr
 
 **Sujetos Agrarios:** Dinámicas de la juventud rural, sucesión generacional y el papel de la mujer en la agricultura.
 
-**Economía y Productividad:** Análisis de la Productividad Total de Factores (PTF) en países como Perú y México.
+**Economía y Productividad:** Análisis de las actividades productivas en diversos países de latinoamerica y el mundo.
 
-**Nuevas Ruralidades:** Críticas al modelo neoliberal, la multilocalidad familiar y la integración de pequeños productores al mercado interno.
+**Nuevas Ruralidades:** Críticas al modelo neoliberal, la movilidad y la integración de pequeños productores al mercado interno.
 
 **Sustentabilidad y Estrategias de Vida:** Marcos teóricos sobre medios de vida sostenibles y enfoques territoriales del desarrollo.
 
