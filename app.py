@@ -48,6 +48,18 @@ def extract_page(text: str) -> str:
     return "N/A"
 
 st.sidebar.title("📚 Research Copilot")
+
+# Global Year Filter
+df_papers = pd.DataFrame(papers)
+min_y = int(df_papers['year'].min()) if not df_papers.empty else 2000
+max_y = int(df_papers['year'].max()) if not df_papers.empty else 2026
+años_rango = st.sidebar.slider("Selecciona el periodo (Desde - Hasta):", min_value=min_y, max_value=max_y, value=(min_y, max_y))
+
+# Filter papers dataframe globally
+if not df_papers.empty:
+    df_filtrado = df_papers[(df_papers['year'] >= años_rango[0]) & (df_papers['year'] <= años_rango[1])]
+    papers = df_filtrado.to_dict('records')
+
 app_mode = st.sidebar.radio("Navigate", ["Chat Interface", "Paper Browser", "Dashboard"])
 
 if app_mode == "Chat Interface":
@@ -55,18 +67,14 @@ if app_mode == "Chat Interface":
     
     # Filters
     st.subheader("Filters")
-    col1, col2 = st.columns(2)
-    all_years = sorted(list(set([p.get("year") for p in papers if p.get("year")])))
+    
     all_topics_dict = {}
     for p in papers:
         for t in p.get("topics", []):
             all_topics_dict[t] = all_topics_dict.get(t, 0) + 1
     all_topics = sorted([t for t, c in all_topics_dict.items()])
     
-    with col1:
-        selected_years = st.multiselect("Filter by Year", options=all_years)
-    with col2:
-        selected_topics = st.multiselect("Filter by Topic", options=all_topics)
+    selected_topics = st.multiselect("Filter by Topic", options=all_topics)
         
     st.markdown("---")
     
@@ -109,9 +117,9 @@ if app_mode == "Chat Interface":
                 for idx in top_indices:
                     meta = vector_meta[idx]
                     
-                    if selected_years and len(selected_years) > 0:
-                        if meta.get("year") not in selected_years:
-                            continue
+                    doc_year = meta.get("year")
+                    if doc_year and not (años_rango[0] <= int(doc_year) <= años_rango[1]):
+                        continue
                     
                     if selected_topics and len(selected_topics) > 0:
                         doc_text = meta.get("text", "").lower()
