@@ -42,9 +42,20 @@ echo "OPENAI_API_KEY=tu_api_key_aqui" > .env
 # Ejecutar la aplicación
 streamlit run app.py
 
-## Detalles tecnicos 
+## 5. Detalles tecnicos 
 
 <img width="747" height="208" alt="image" src="https://github.com/user-attachments/assets/89cdbd5d-2606-4682-80e0-69f0db78bb15" />
 
+<img width="839" height="281" alt="image" src="https://github.com/user-attachments/assets/f8b4fa83-4374-4a1a-abe5-59f509a84b34" />
 
+## 6. Limitaciones
+
+Se debe mejorar la sintesis de varios autores a la vez
+Las citas a veces fallan
+
+## 7. Datos de Autor
+
+Autores: Imilla Córdova Chambi
+Curso: Prompt Engineering - Qlab
+Fecha: 3/03/2026
 
