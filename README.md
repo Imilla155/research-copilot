@@ -33,13 +33,13 @@ El sistema es capaz de:
 
 ## 4. Instalacion 
 
-# Instalar dependencias
+**Instalar dependencias**
 pip install -r requirements.txt
 
-# Configurar API Key (crear archivo .env)
+**Configurar API Key (crear archivo .env)**
 echo "OPENAI_API_KEY=tu_api_key_aqui" > .env
 
-# Ejecutar la aplicación
+**Ejecutar la aplicación**
 streamlit run app.py
 
 ## 5. Detalles tecnicos 
