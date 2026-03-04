@@ -1,0 +1,224 @@
+ {
+  "papers": [
+    {
+      "id": "paper_001",
+      "title": "Rural Nonfarm Employment and Incomes in Latin America: Overview and Policy Implications",
+      "authors": ["Reardon, T.", "Berdegué, J.", "Escobar, G."],
+      "year": 2001,
+      "venue": "World Development",
+      "doi": null,
+      "filename": "2001 Rural non farm work",
+      "topics": ["rural nonfarm employment", "rural income", "Latin America", "rural development policy"],
+      "abstract": "Rural nonfarm employment (RNFE) and incomes (RNFI) are crucial to Latin American rural households. The paper reviews evidence from several countries and analyzes patterns, growth trends, and policy implications of rural nonfarm income in the region."
+    },
+    {
+      "id": "paper_002",
+      "title": "Farming, Education and Migration: Understanding Rural Youth in Northern Ecuador",
+      "authors": ["Eche-Enríquez, D.", "Vivas-Vivas, R."],
+      "year": 2022,
+      "venue": "Migraciones",
+      "doi": "10.14422/mig.i54y2022.008",
+      "filename": "2022 Farming-Education-and-Migration-Understanding-Rural-Youth-in-Northern-Ecuador",
+      "topics": ["rural youth", "migration aspirations", "agriculture", "education", "Ecuador", "rural labor force"],
+      "abstract": "This paper analyses migration aspirations of agricultural high school students in northern rural Ecuador based on 366 surveys conducted in three agricultural cantons across the Coast, Highlands, and Amazon regions. Main migration drivers include low agricultural prices, low wages, and lack of technical support. A large share of students in the Highlands and Coast do not intend to work in agriculture, unlike those in the Amazon. More than half aspire to migrate to urban centers to pursue higher education and better economic opportunities."
+    },
+    {
+      "id": "paper_003",
+      "title": "Climate-smart agriculture reduces capital-based livelihoods vulnerability: evidence from Latin America",
+      "authors": ["Martinez-Baron, D.", "Alarcón de Antón, M.", "Martinez Salgado, J. D.", "Castellanos, A. E."],
+      "year": 2024,
+      "venue": "Frontiers in Sustainable Food Systems",
+      "doi": "10.3389/fsufs.2024.1363101",
+      "filename": "2024 Climate-smart agriculture reduces capital-based livelihoods vulnerability",
+      "topics": ["climate-smart agriculture", "sustainable livelihoods framework", "climate-smart villages", "rural livelihoods", "livelihood vulnerability", "Latin America", "social capital", "natural capital", "financial capital", "human capital", "physical capital"],
+      "abstract": "This study examines the role of Climate-Smart Agriculture (CSA) practices in reducing capital-based livelihood vulnerability among rural households in Latin America using the Climate-Smart Village (CSV) approach. Based on data from 267 households in Guatemala, Honduras, and Colombia, the research applies multiple correspondence analysis, clustering techniques, and the Sustainable Livelihoods Framework (SLF) to assess impacts across five livelihood capitals."
+    },
+    {
+      "id": "paper_004",
+      "title": "Ciudad sin frontera: La multilocalidad urbano-rural en Bolivia",
+      "authors": ["Cielo, C.", "Antequera Durán, N."],
+      "year": 2012,
+      "venue": "Eutopía",
+      "doi": null,
+      "filename": "2012 Dialnet-CiudadSinFronteraLaMultilocalidadUrbanoruralEnBoli-5040170 (1)",
+      "topics": ["urban-rural linkages", "multilocality", "territorial articulations", "periurban areas", "Bolivia", "Andean region", "rural-urban dynamics"],
+      "abstract": "This article analyzes the mutual constitution of urban and rural spheres in Bolivia, emphasizing the social, economic, and political articulations that connect city and countryside in the Andean region. The study highlights multilocality and territorial linkages as key dimensions of Bolivian urban-rural dynamics."
+    },
+    {
+      "id": "paper_005",
+      "title": "A Global Review of the Impacts of Climate Change and Variability on Agricultural Productivity and Farmers' Adaptation Strategies",
+      "authors": ["Abebaw, S. E."],
+      "year": 2025,
+      "venue": "Food Science & Nutrition",
+      "doi": "10.1002/fsn3.70260",
+      "filename": "Food Science   Nutrition - 2025 - Abebaw - A Global Review of the Impacts of Climate Change and Variability on Agricultural",
+      "topics": ["climate change", "climate variability", "agricultural productivity", "crop yield", "adaptation strategies", "food security", "Sub-Saharan Africa", "Ethiopia"],
+      "abstract": "This global review examines the impacts of climate change and variability on agricultural productivity and farmers' adaptation strategies, with particular emphasis on Ethiopia and comparable climate-sensitive regions such as Sub-Saharan Africa, South Asia, and Latin America. The review underscores the urgent need for climate-resilient agricultural practices."
+    },
+    {
+      "id": "paper_006",
+      "title": "The Feminization of Agriculture? Economic Restructuring in Rural Latin America",
+      "authors": ["Deere, C. D."],
+      "year": 2005,
+      "venue": "UNRISD Occasional Paper No. 1",
+      "doi": null,
+      "filename": "2005 Feminizationo of the agriculture LA",
+      "topics": ["feminization of agriculture", "economic restructuring", "rural Latin America", "gender equality", "rural labor markets", "agrarian change"],
+      "abstract": "This occasional paper examines whether economic restructuring in rural Latin America has led to the feminization of agriculture. The study analyzes shifts in rural labor markets, agrarian change, and gender dynamics in the context of neoliberal reforms and globalization."
+    },
+    {
+      "id": "paper_007",
+      "title": "Farmers’ Perception of Climate Change: A Review of the Literature for Latin America",
+      "authors": ["Fierros-González, I.", "López-Feldman, A."],
+      "year": 2021,
+      "venue": "Frontiers in Environmental Science",
+      "doi": null,
+      "filename": "2021 Farmers Perception of Climate Change A Review of the Literature for Latin America",
+      "topics": ["climate change", "farmers perception", "Latin America", "adaptation", "agriculture"],
+      "abstract": "This paper reviews the existing literature on farmers’ perceptions of climate change in Latin America. It analyzes how farmers perceive climatic variability and long-term change, and how these perceptions affect adaptation strategies."
+    },
+    {
+      "id": "paper_008",
+      "title": "Emerging responses to the COVID-19 crisis from family farming and the agroecology movement in Latin America – A rediscovery of food, farmers and collective action",
+      "authors": ["Tittonell, P.", "Fernandez, M.", "El Mujtar, V. E.", "Preiss, P. V.", "Sarapu, S.", "Laborda, L.", "Mendonça, M. A.", "Alvarez, V. E.", "Fernandes, G. B.", "Petersen, P.", "Cardoso, I. M."],
+      "year": 2021,
+      "venue": "Agricultural Systems",
+      "doi": "10.1016/j.agsy.2021.103098",
+      "filename": "2021 Emerging responses to the COVID-19 crisis from family farming and the",
+      "topics": ["family farming", "agroecology", "COVID-19", "food systems", "short value chains", "collective action", "Latin America", "food resilience"],
+      "abstract": "This study analyzes the early responses of family farming and agroecology movements in Latin America to the impacts of the COVID-19 pandemic on food production and consumption. The findings highlight the importance of strengthening local food systems."
+    },
+    {
+      "id": "paper_009",
+      "title": "Latin America: The State of Smallholders in Agriculture",
+      "authors": ["Berdegué, J. A.", "Fuentealba, R."],
+      "year": 2011,
+      "venue": "IFAD Report",
+      "doi": null,
+      "filename": "2011 Latin_America_The_State_of_Smallholders_in_Agricul",
+      "topics": ["smallholders", "Latin America", "rural development", "poverty", "agriculture"],
+      "abstract": "This report analyzes the situation of smallholder farmers in Latin America, examining their socio-economic conditions, contribution to agricultural production, and role in food security."
+    },
+    {
+      "id": "paper_010",
+      "title": "Empleo rural en América Latina: El caso de Chile",
+      "authors": ["Pérez Silva, R."],
+      "year": 2023,
+      "venue": "Chilean Journal of Agricultural & Animal Sciences",
+      "doi": "10.29393/CHJAA39-10EARP10010",
+      "filename": "2023 ESTADO ACTUAL Y TRANSFORMACIONES DEL EMPLEO RURAL EN AMÉRICA LATINA. UN ANÁLISIS DEL CASO DE CHILe",
+      "topics": ["empleo rural", "América Latina", "Chile", "mercado laboral rural", "transformación estructural", "desarrollo rural", "sector agrícola"],
+      "abstract": "El artículo analiza la evolución y transformaciones del empleo rural en América Latina, centrándose en el caso de Chile. Examina los cambios en la estructura ocupacional y la diversificación del empleo."
+    },
+    {
+      "id": "paper_011",
+      "title": "The future of farming: Who will produce our food?",
+      "authors": ["Giller, K. E.", "Delaune, T.", "Silva, J. V.", "Descheemaeker, K.", "van de Ven, G."],
+      "year": 2021,
+      "venue": "Food Security",
+      "doi": "10.1007/s12571-021-01184-6",
+      "filename": "2021 The future of farming Who will produce our food",
+      "topics": ["food production", "farming systems", "SDG2", "family farms"],
+      "abstract": "Achieving SDG2 requires a multidimensional approach where farming provides nutritious diets and livelihoods while preserving ecosystems. This study highlights a profound global diversity in farming systems, ranging from ultra-smallholders to large-scale mechanized operations."
+    },
+    {
+      "id": "paper_012",
+      "title": "Exploring Women’s Differentiated Access to Climate-Smart Agricultural Interventions in Selected Climate-Smart Villages of Latin America",
+      "authors": ["Acosta, M.", "Riley, S.", "Bonilla-Findji, O.", "Martínez-Barón, D.", "Howland, F."],
+      "year": 2021,
+      "venue": "Sustainability",
+      "doi": "10.3390/su131910951",
+      "filename": "2021 Exploring Women’s Differentiated Access to Climate-Smart Agricultural Interventions in Selected Climate-Smart Villages of Latin America",
+      "topics": ["gender gap", "climate-smart agriculture", "Latin America", "women access"],
+      "abstract": "The objective of this study is to investigate whether interaction effects among socio-economic factors are meaningful drivers of observed differences among female farmers in their adoption of climate-smart agricultural (CSA) practices."
+    },
+    {
+      "id": "paper_013",
+      "title": "Informe País: Situación de la Agricultura Familiar, Campesina e Indígena en Perú",
+      "authors": ["Castillo, P."],
+      "year": 2021,
+      "venue": "CEPES / CBI AF",
+      "doi": "N/A",
+      "filename": "2021 AF_PerU.pdf",
+      "topics": ["family farming", "indigenous communities", "Peru", "rural policy"],
+      "abstract": "This report analyzes the status of family and indigenous farming in Peru within the Decade of Family Agriculture framework. It highlights the sector's importance for rural livelihoods while identifying gaps in land titling and resource access."
+    },
+    {
+      "id": "paper_014",
+      "title": "Sustainable Livelihoods and Rural Development",
+      "authors": ["Scoones, I."],
+      "year": 2015,
+      "venue": "Agrarian Change & Peasant Studies Series",
+      "doi": "http://dx.doi.org/10.3362/9781780448749",
+      "filename": "2015 scoones sustainable livelihoods.pdf",
+      "topics": ["sustainable livelihoods", "rural development", "agrarian change", "political economy"],
+      "abstract": "This foundational book explores the evolution and dimensions of the sustainable livelihoods approach in rural development. It argues for a perspective informed by political economy and agrarian change to address inequality and poverty."
+    },
+    {
+      "id": "paper_015",
+      "title": "Nadie innova más de lo que sus relaciones le permiten: El caso de pequeños productores",
+      "authors": ["Jiménez-Carrasco, J. S.", "Rendón-Medel, R.", "Díaz-José, J.", "Segura-Salazar, C. M."],
+      "year": 2023,
+      "venue": "Ecosistemas y Recursos Agropecuarios",
+      "doi": "10.19136/era.a10nIII.3718",
+      "filename": "2023 Nadie innova más de lo que sus relaciones le permitenEl caso de pequeños productores.pdf",
+      "topics": ["social networks", "innovation adoption", "small farmers", "Mexico"],
+      "abstract": "This research analyzes how social networks and relational structures influence the adoption of innovations among small-scale farmers in Mexico. Using social network analysis, the study demonstrates that an individual's capacity to innovate is constrained by their network connections."
+    },
+    {
+      "id": "paper_016",
+      "title": "Critical reflections on the New Rurality and the rural territorial development approaches in Latin America",
+      "authors": ["Ramírez-Miranda, C."],
+      "year": 2014,
+      "venue": "Agronomía Colombiana",
+      "doi": "N/A",
+      "filename": "2014 Critical reflections on the New Rurality and the rural.pdf",
+      "topics": ["new rurality", "territorial development", "neoliberalism", "food sovereignty"],
+      "abstract": "This paper presents a critical analysis of New Rurality and Rural Territorial Development (RTD) perspectives in Latin America. It argues that these hegemonic approaches often align with neoliberal policies."
+    },
+    {
+      "id": "paper_017",
+      "title": "Productividad total de factores en la agricultura peruana: estimación y determinantes",
+      "authors": ["Galarza, F. B.", "Díaz, J. G."],
+      "year": 2015,
+      "venue": "Economía (PUCP)",
+      "doi": "N/A",
+      "filename": "2015 Productividad de la agricultura peru.pdf",
+      "topics": ["Total Factor Productivity", "agricultural economics", "Peru", "microdata analysis"],
+      "abstract": "This paper estimates agricultural productivity in Peru using microeconomic data and a constant elasticity of substitution (CES) production function. The study identifies correlations between productivity and factors like education and gender."
+    },
+    {
+      "id": "paper_018",
+      "title": "Producción lechera en los Andes peruanos: ¿Integración al mercado interno o marginación económica?",
+      "authors": ["Aubron, C.", "Cochet, H."],
+      "year": 2008,
+      "venue": "Journal of Latin American Geography / IFEA",
+      "doi": "N/A",
+      "filename": "2008 ProduccionLecheraEnLosAndesPeruanos-3404525 (2).pdf",
+      "topics": ["dairy production", "Andean agriculture", "peasant economies", "market integration"],
+      "abstract": "This article examines the growth of dairy production in the Peruvian Andes as a strategy for peasant families to integrate into domestic markets. It details how cheese sales provide a regular income for basic household needs."
+    },
+    {
+      "id": "paper_019",
+      "title": "Agriculture and the Generation Problem",
+      "authors": ["White, B."],
+      "year": 2021,
+      "venue": "Agrarian Change & Peasant Studies Series",
+      "doi": "N/A",
+      "filename": "2021 agrarian and the generation problem.pdf",
+      "topics": ["generational change", "rural youth", "agrarian resources", "future of farming"],
+      "abstract": "This book explores the complex dynamics of resource transfer between generations in rural communities, addressing why young people are increasingly averse to farming. It examines how class, gender, and generational relations block pathways."
+    },
+    {
+      "id": "paper_020",
+      "title": "Estudio de autopercepción de pequeños productores agrícolas. El caso de Huichapan Hidalgo, México",
+      "authors": ["Ceballos Pérez, S. G.", "Nopal Tejamanil, G."],
+      "year": 2021,
+      "venue": "Polis Revista Latinoamericana",
+      "doi": "10.32735/S0718-6568/2021-N59-1474",
+      "filename": "2021 Estudio de autopercepción de pequeños productores agrícolas. El caso de Huichapan Hidalgo México..pdf",
+      "topics": ["self-perception", "small-scale farmers", "Mexico", "neoliberalism"],
+      "abstract": "This study analyzes how small-scale farmers in Hidalgo, Mexico, perceive themselves amidst neoliberal economic shifts and why they persist in agricultural work. The findings suggest that their persistence is a form of territorial defense."
+    }
+  ]
+}
