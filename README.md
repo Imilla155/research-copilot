@@ -54,7 +54,7 @@ streamlit run app.py
 
 ## 6. Limitaciones
 
-Se debe mejorar la sintesis de varios autores a la vez.
+Se tienen dificultades para la recuperacion de textos en español. 
 
 Se debe mejorar en la informacion muy especifica que se le pide, a veces no la reconoce.
 
