@@ -135,21 +135,36 @@ if app_mode == "Chat Interface":
                 for meta in filtered_docs:
                     page = extract_page(meta.get("text", ""))
                     src = meta.get("source", "Unknown Source")
-                    authors = meta.get("authors", "Unknown Authors")
-                    year = meta.get("year", "N/A")
+                    
+                    # Match with catalog to get accurate authors and title
+                    matched_paper = next((p for p in papers if p.get("filename", "") in src or src in p.get("filename", "")), None)
+                    if matched_paper:
+                        title = matched_paper.get("title", src)
+                        authors_list = matched_paper.get("authors", [])
+                        authors_str = ", ".join(authors_list) if isinstance(authors_list, list) else str(authors_list)
+                        year = matched_paper.get("year", meta.get("year", "S.f."))
+                    else:
+                        title = src
+                        authors_str = meta.get("authors", "Unknown")
+                        if isinstance(authors_str, list):
+                            authors_str = ", ".join(authors_str)
+                        year = meta.get("year", "S.f.")
+
                     text = meta.get("text", "")
-                    contexts.append(f"Document: {src}\nAuthors: {authors}\nYear: {year}\nPage: {page}\nContent: {text}")
+                    contexts.append(f"Title: {title}\nAuthors: {authors_str}\nYear: {year}\nPage: {page}\nContent: {text}")
 
             system_prompt = (
-                "You are 'Research Copilot', a professional Academic Paper Assistant. "
-                "Use the provided context to answer the user's question accurately. "
+                "You are 'Research Copilot', a professional Academic Paper Assistant.\n"
+                "Use the provided context to answer the user's question accurately.\n"
                 "If the answer is not in the context, say you don't know based on the provided papers.\n\n"
-                "Critically Important Protocol:\n"
-                "1. Every time you use information from the context, you MUST include a formal APA citation directly in your response text.\n"
-                "2. Use strictly the format (Author, Year, p. X) within the text. If the page belongs to 'N/A' or is not available, use only (Author, Year).\n"
-                "3. At the very end of your response, add a 'Referencias' section. In this section, you must list the documents used strictly following APA format:\n"
-                "   Lastname, Initial. (Year). Title of the document in italics. Source or journal name.\n"
-                "4. CRITICAL: Provide ONLY ONE entry per document in the 'Referencias' section. Do NOT duplicate references if a document is cited multiple times.\n\n"
+                "Critically Important Protocol for APA 7 Citations:\n"
+                "1. IN-TEXT CITATIONS: Every time you use information from the context, you MUST include a formal APA citation directly in your text.\n"
+                "   - Use the REAL last names of the authors provided in the context (do NOT use the generic word 'Author').\n"
+                "   - Format: (Author, Year, p. X).\n"
+                "   - If the Page is 'N/A', 'N', or missing, you MUST REMOVE the page entirely from the citation. Example: (García, 2021) and strictly NOT (García, 2021, p. N/A).\n"
+                "2. REFERENCES SECTION ('Referencias'): At the very end of your response, add a 'Referencias' section.\n"
+                "   - Format: Apellido, Inicial. (Año). *Título del documento en cursiva*.\n"
+                "   - UNIQUENESS & SORTING: Ensure each paper appears ONLY ONCE in the list, regardless of how many times it was cited. Sort the final unique list ALPHABETICALLY by the author's last name.\n\n"
                 "Context:\n" + "\n\n---\n\n".join(contexts)
             )
 
@@ -168,8 +183,8 @@ if app_mode == "Chat Interface":
             
             formatted_sources = []
             for c in contexts:
-                doc_match = re.search(r"Document:\s*(.+)", c)
-                doc_name = doc_match.group(1).replace('.pdf', '') if doc_match else 'Unknown'
+                title_match = re.search(r"Title:\s*(.+)", c)
+                doc_name = title_match.group(1).replace('.pdf', '') if title_match else 'Unknown Paper'
                 formatted_sources.append(doc_name)
             
             st.markdown(response)
