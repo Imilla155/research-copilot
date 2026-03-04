@@ -54,11 +54,21 @@ streamlit run app.py
 
 ## 6. Limitaciones
 
-Se debe mejorar la sintesis de varios autores a la vez
+Se debe mejorar la sintesis de varios autores a la vez.
 
-Las citas a veces fallan
+Se debe mejorar en la informacion muy especifica que se le pide, a veces no la reconoce.
 
-## 7. Datos de Autor
+Se debe mejorar la delimitacion por años. Para que realmente considere el rango de años indicado.
+
+## 7. Aprendizajes
+
+- He aprendido a extraer, limpiar y fragmentar data
+
+- He podido crear una web que permite acceder a informacion de 20 lecturas, permitiendome ahorrar tiempo en la investigacion y consultas.
+
+- He aprendido a generar y utilizar buenos prompts para guiar a la IA. 
+
+## 8. Datos de Autor
 
 Autores: Imilla Córdova Chambi
 
