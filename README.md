@@ -33,6 +33,8 @@ El sistema es capaz de:
 ## 3. Arquitectura
 <img width="487" height="578" alt="image" src="https://github.com/user-attachments/assets/e1770f8f-5ef9-4935-adaa-5029dcedaf6a" />
 
+<img width="787" height="202" alt="image" src="https://github.com/user-attachments/assets/f4c877c5-ea72-46c2-9072-5f2eef32e2c1" />
+
 ## 4. Instalacion 
 
 **Instalar dependencias**
